@@ -1,0 +1,1208 @@
+{
+  "version": "3.8.3",
+  "exportedAt": "2026-10-30T10:19:34.673Z",
+  "config": {
+    "language": "es-MX",
+    "addonName": "",
+    "includeAdult": false,
+    "blurThumbs": false,
+    "showPrefix": false,
+    "showMetaProviderAttribution": false,
+    "castCount": 10,
+    "displayAgeRating": false,
+    "showDisabledCatalogs": true,
+    "sfw": true,
+    "hideUnreleasedDigital": false,
+    "hideUnreleasedDigitalSearch": false,
+    "hideUnreleasedShows": false,
+    "hideUnreleasedShowsSearch": false,
+    "hideWatchedTrakt": false,
+    "hideWatchedAnilist": false,
+    "hideWatchedMdblist": false,
+    "hideWatchedSimkl": false,
+    "providers": {
+      "movie": "tmdb",
+      "series": "tvdb",
+      "anime": "tvdb",
+      "anime_id_provider": "kitsu",
+      "forceAnimeForDetectedImdb": false
+    },
+    "artProviders": {
+      "movie": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "series": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "anime": {
+        "poster": "mal",
+        "background": "imdb",
+        "logo": "imdb"
+      },
+      "englishArtOnly": false,
+      "originalLangFallback": false
+    },
+    "tvdbSeasonType": "default",
+    "animeEpisodeDates": "provider",
+    "tvdbNormalizeYearSeasons": true,
+    "mal": {
+      "skipFiller": false,
+      "skipRecap": false,
+      "allowEpisodeMarking": false,
+      "skipMixedFiller": false,
+      "useImdbIdForCatalogAndSearch": false
+    },
+    "tmdb": {
+      "scrapeImdb": false,
+      "forceLatinCastNames": false
+    },
+    "apiKeys": {
+      "gemini": "",
+      "tmdb": "",
+      "tvdb": "",
+      "fanart": "",
+      "rpdb": "",
+      "topPoster": "",
+      "mdblist": "",
+      "openrouter": "",
+      "publicmetadb": "",
+      "trakt": "2b8f93332db88f38b5b564ea9fd5d1f127f4d63bf517a2efe9984a94a12ec8f1",
+      "simkl": "548c1e5ab18fa0e3ea9960560f0f42988fb8146e30db07f9f476a984f16c48d8",
+      "simklAuthMode": "oauth",
+      "simklV2": true,
+      "simklListMinTTL": 300,
+      "simklActivitiesTTL": 21600,
+      "customDescriptionBlurb": "<div style='margin:16px auto;max-width:820px;border:1px solid #1f1f23;background:#000;min-height:175px;display:flex;align-items:center;justify-content:center;border-radius:16px;overflow:hidden;position:relative;'><div style='position:absolute;inset:0;background:url(https://meteorfortheweebs.midnightignite.me/logo.png?v=2118cbc8c8589771) 85% 30%/60% no-repeat;filter:grayscale(1) brightness(0.55);opacity:0.22;'></div><div style='position:absolute;inset:0;background:linear-gradient(90deg,#000 30%,rgba(0,0,0,0.6) 65%,rgba(0,0,0,0.35) 100%);'></div><div style='position:relative;text-align:center;padding:26px 32px;'><div style='font-size:1.9rem;font-weight:900;letter-spacing:0.06em;color:#fff;line-height:1;margin-bottom:10px;'>METEOR</div><div style='display:flex;align-items:center;justify-content:center;gap:10px;font-size:0.76rem;margin-bottom:8px;'><span style='color:#46d369;font-weight:700;'>98% Match</span><span style='color:#a3a3a8;'>2026</span><span style='border:1px solid #4d4d55;color:#a3a3a8;font-size:0.62rem;padding:0 5px;border-radius:2px;'>HD</span><span style='border:1px solid #4d4d55;color:#a3a3a8;font-size:0.62rem;padding:0 5px;border-radius:2px;'>ANIME</span></div><div style='font-size:0.83rem;color:#c9c9cf;line-height:1.5;margin-bottom:14px;max-width:480px;margin-left:auto;margin-right:auto;'>Conservative, franchise-aware matching across Kitsu, AniList, MAL and AniDB.</div><div style='display:flex;gap:10px;flex-wrap:wrap;justify-content:center;'><a href='https://meteorfortheweebs.midnightignite.me/configure' target='_blank' style='display:inline-block;background:#fff;color:#000;font-size:0.8rem;font-weight:700;padding:8px 22px;border-radius:4px;text-decoration:none;'>&#9654;&#65038;&nbsp; Configure</a><a href='https://ko-fi.com/midnightignite' target='_blank' style='display:inline-block;background:rgba(109,109,110,0.4);color:#fff;font-size:0.8rem;font-weight:700;padding:8px 22px;border-radius:4px;text-decoration:none;'>&#9825;&nbsp; Donate</a></div></div></div>",
+      "addonVersion": "3.8.3",
+      "hasBuiltInTvdb": true,
+      "hasBuiltInTmdb": true,
+      "hasBuiltInMdblist": false,
+      "hasBuiltInGemini": false,
+      "catalogTTL": 86400,
+      "maxCatalogs": 500,
+      "collectionImportCatalogCap": 400,
+      "maxEpisodeOrders": 100,
+      "aiCatalogMaxPerRequest": 20,
+      "simklTrendingPageSizeOptions": [
+        50,
+        100
+      ],
+      "anilistRequiresAuth": false,
+      "jellyfinEnabled": true,
+      "jellyfinResolveOnOpen": "user",
+      "jellyfinUpcomingMode": "user",
+      "jellyfinBaseUrl": "https://aiometadatafortheweebs.midnightignite.me",
+      "traktSearchEnabled": false,
+      "simklSearchEnabled": false,
+      "lumiereEnabled": true,
+      "jikanEnabled": true
+    },
+    "posterRatingProvider": "none",
+    "usePosterProxy": true,
+    "mdblistWatchTracking": false,
+    "anilistWatchTracking": true,
+    "malWatchTracking": false,
+    "simklWatchTracking": false,
+    "traktWatchTracking": false,
+    "publicmetadbWatchTracking": false,
+    "enableRatingPostersForLibrary": true,
+    "showRateMeButton": false,
+    "ageRating": "None",
+    "allowUnratedContent": true,
+    "searchEnabled": true,
+    "sessionId": "",
+    "catalogSetupComplete": true,
+    "timezone": "America/Chicago",
+    "catalogs": [
+      {
+        "id": "tmdb.top",
+        "name": "TMDB Popular",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.top",
+        "name": "TMDB Popular",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.trending",
+        "name": "TMDB Trending",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.trending",
+        "name": "TMDB Trending",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.top_rated",
+        "name": "TMDB Top Rated",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.top_rated",
+        "name": "TMDB Top Rated",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.airing_today",
+        "name": "TMDB Airing Today",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.year",
+        "name": "TMDB By Year",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.year",
+        "name": "TMDB By Year",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.language",
+        "name": "TMDB By Language",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.language",
+        "name": "TMDB By Language",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.trending",
+        "name": "TVDB Trending",
+        "type": "movie",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.trending",
+        "name": "TVDB Trending",
+        "type": "series",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.genres",
+        "name": "TVDB Genres",
+        "type": "movie",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.genres",
+        "name": "TVDB Genres",
+        "type": "series",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.collections",
+        "name": "TVDB Collections",
+        "type": "movie",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvmaze.schedule",
+        "name": "TVmaze Daily Schedule",
+        "type": "series",
+        "source": "tvmaze",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "lumiere.popular",
+        "name": "LumiereDB Popular",
+        "type": "movie",
+        "source": "lumiere",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "lumiere.popular",
+        "name": "LumiereDB Popular",
+        "type": "series",
+        "source": "lumiere",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "lumiere.trending",
+        "name": "LumiereDB Trending",
+        "type": "movie",
+        "source": "lumiere",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "lumiere.trending",
+        "name": "LumiereDB Trending",
+        "type": "series",
+        "source": "lumiere",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.airing",
+        "name": "MAL Airing Now",
+        "type": "anime",
+        "source": "mal",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.upcoming",
+        "name": "MAL Upcoming Season",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.schedule",
+        "name": "MAL Airing Schedule",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.seasons",
+        "name": "MAL Seasons",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.80sDecade",
+        "name": "MAL Best of 80s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.90sDecade",
+        "name": "MAL Best of 90s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.00sDecade",
+        "name": "MAL Best of 2000s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.10sDecade",
+        "name": "MAL Best of 2010s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.20sDecade",
+        "name": "MAL Best of 2020s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.genres",
+        "name": "MAL Genres",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.studios",
+        "name": "MAL By Studio",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.top_movies",
+        "name": "MAL Top Movies",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.top_series",
+        "name": "MAL Top Series",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.most_favorites",
+        "name": "MAL Most Favorites",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.most_popular",
+        "name": "MAL Most Popular",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.top_anime",
+        "name": "MAL Top Anime",
+        "type": "anime",
+        "source": "mal",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.season_top",
+        "name": "MAL Top Rated This Week",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.season_top_new",
+        "name": "MAL Top New This Week",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfk",
+        "name": "Netflix Kids (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfk",
+        "name": "Netflix Kids (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock Premium (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock Premium (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cts",
+        "name": "Curiosity Stream (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cts",
+        "name": "Curiosity Stream (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mgl",
+        "name": "MagellanTV (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mgl",
+        "name": "MagellanTV (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hay",
+        "name": "Hayu (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hay",
+        "name": "Hayu (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.clv",
+        "name": "Clarovideo (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.clv",
+        "name": "Clarovideo (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.gop",
+        "name": "Globoplay (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.gop",
+        "name": "Globoplay (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hst",
+        "name": "JioHotstar (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hst",
+        "name": "JioHotstar (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.slv",
+        "name": "Sony Liv (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.slv",
+        "name": "Sony Liv (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.zee",
+        "name": "Zee5 (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.zee",
+        "name": "Zee5 (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nlz",
+        "name": "NLZIET (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nlz",
+        "name": "NLZIET (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.vil",
+        "name": "Videoland (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.vil",
+        "name": "Videoland (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sst",
+        "name": "SkyShowtime (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sst",
+        "name": "SkyShowtime (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sky",
+        "name": "Sky Go (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sky",
+        "name": "Sky Go (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.wow",
+        "name": "WOW (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.wow",
+        "name": "WOW (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.blv",
+        "name": "BluTV (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.blv",
+        "name": "BluTV (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cpd",
+        "name": "Canal+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cpd",
+        "name": "Canal+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crv",
+        "name": "Crave (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crv",
+        "name": "Crave (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dpe",
+        "name": "Discovery+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dpe",
+        "name": "Discovery+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.bet",
+        "name": "Bet+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.bet",
+        "name": "Bet+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mub",
+        "name": "MUBI (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mub",
+        "name": "MUBI (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sta",
+        "name": "Starz (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sta",
+        "name": "Starz (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crc",
+        "name": "Criterion Channel (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crc",
+        "name": "Criterion Channel (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hid",
+        "name": "HIDIVE (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hid",
+        "name": "HIDIVE (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      }
+    ],
+    "search": {
+      "enabled": true,
+      "ai_enabled": false,
+      "ai_provider": "gemini",
+      "ai_model": "gemini-2.5-flash",
+      "ai_trigger_keyword": "",
+      "providers": {
+        "movie": "tmdb.search",
+        "series": "tvdb.search",
+        "anime_movie": "kitsu.search.movie",
+        "anime_series": "kitsu.search.series",
+        "people_search_movie": "tmdb.people.search",
+        "people_search_series": "tmdb.people.search"
+      },
+      "engineEnabled": {
+        "tmdb.search": true,
+        "tvdb.search": true,
+        "tvdb.collections.search": false,
+        "tvmaze.search": true,
+        "trakt.search": true,
+        "mdblist.search": true,
+        "imdb.suggestions.search": true,
+        "lumiere.search": true,
+        "simkl.search": true,
+        "simkl.search.movie": true,
+        "simkl.search.series": true,
+        "people_search_movie": false,
+        "people_search_series": false,
+        "mal.search.movie": true,
+        "mal.search.series": true,
+        "kitsu.search.movie": true,
+        "kitsu.search.series": true
+      },
+      "searchNames": {},
+      "searchOrder": [
+        "movie",
+        "series",
+        "tvdb.collections.search",
+        "gemini.search",
+        "anime_series",
+        "anime_movie",
+        "people_search_movie",
+        "people_search_series"
+      ]
+    },
+    "streaming": [],
+    "customPosterUrlPattern": "",
+    "customBackgroundUrlPattern": "",
+    "customLandscapeUrlPattern": "",
+    "customLogoUrlPattern": ""
+  },
+  "metadata": {
+    "apiKeysExcluded": false,
+    "totalCatalogs": 103,
+    "enabledCatalogs": 14
+  }
+}
